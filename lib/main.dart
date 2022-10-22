@@ -49,6 +49,7 @@ class _DeviceInformationState extends State<DeviceInformation> {
     final newAllInformation = {
       ...deviceInfo,
       ...appInfo,
+      //TODO imei, phone number
     };
 
     if (!mounted) return;
